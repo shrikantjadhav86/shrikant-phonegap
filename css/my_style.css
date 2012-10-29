@@ -1,0 +1,208 @@
+.header-menu{
+	height: 30px;
+	width:30px;
+}
+#toolbar .tb-button {
+   background-color: #525252;
+   border-radius: 0px 0px 0px 0px;
+/*    color: #B3B3B3;*/
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+	font-size: 10px;
+    font-weight: normal
+	height:50px;
+	margin-top: 5px;
+	text-shadow:none;
+}
+#inspector-button {
+    width: auto;
+	padding:10px 2px 10px 2px;
+}
+#myaccount-button
+{
+	width:55px;
+	padding:4px 2px 4px 2px;
+}
+#cat-button{
+	width:45px;
+	padding-top:20px;
+	background-image:url("images/cart_icon.png") ;
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+.resize-image {
+    width  : 100%;
+    height : auto;
+}
+.header-log{
+    width  : 75%;
+    height : auto;
+}
+
+
+
+/* for cart.html*/
+
+#heading .tb-heading {
+   background-color: #525252;
+   border-radius: 0px 0px 0px 0px;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+	font-family: "arial",Georgia,Serif;
+	font-size: 8px;
+    font-weight: bold;
+/*	height:50px;*/
+	margin-top: 5px;
+	text-shadow:none;
+
+}
+#itemName_text {
+    width: 30%;
+}
+#option_text {
+    width: 20%;
+}
+#quantity_text {
+    width: 10%;
+}
+#price_text {
+    width: 10%;
+}
+#itemTotal_text {
+    width: 20%;
+}
+#delete_text {
+    width: 10%;
+}
+#subtotal_text {
+    width: 100%;
+}
+
+
+#description .tb-desc {
+   border-radius: 0px 0px 0px 0px;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+	font-size: 8px;
+    font-weight: normal
+	margin-top: 5px;
+}
+
+#productName_desc {
+    width: 30%;
+}
+
+#option_desc {
+    width: 20%;
+}
+#quantity_desc {
+    width: 10%;
+}
+#price_desc {
+    width: 10%;
+}
+#itemTotal_desc {
+    width: 20%;
+}
+#delete_desc {
+    width: 10%;
+}
+
+
+.image_class {
+	width: 20%;
+}
+
+
+.leftItem {
+    clear: both;
+    float: left;
+    width: 40%;
+}
+
+.rightItem {
+    float: left;
+    width: 60%;
+}
+
+
+
+
+/* FOR orderSummary.html*/
+.bg-black {
+    background-color: #000000;
+    border-radius: 0px 0px 0px 0px;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    text-align: left;
+	font-size: 12px;
+    font-weight: bold;
+	text-shadow:none;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 0px 0px;
+    color: #000000;
+    cursor: pointer;
+    float: left;
+    text-align: left;
+	font-size: 12px;
+    font-weight: normal;
+	text-shadow:none;
+}
+
+.text-large
+{
+	font-size: 16px;
+    font-weight: bold;
+}
+
+.text-medium
+{
+	font-size: 14px;
+    font-weight: bold;
+	margin-left: 12px;
+}
+
+
+.text-normal
+{
+	font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+	margin-left: 12px;
+}
+
+.text1
+{
+	font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+	text-shadow:none;
+}
+
+.text-yellow
+{
+	font-size: 10px;
+    font-weight: bold;
+    color: #FFFF00;
+	text-shadow:none;
+	margin-top: 12px;
+	margin-bottom: 5px;
+}
+
+#grid1 {
+    width: 40%;
+}
+#grid2 {
+    width: 15%;
+}
+
