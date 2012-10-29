@@ -1,1 +1,165 @@
-<h1> Hello World</h1>
+<!DOCTYPE html>
+<html>
+<head>
+       <title>My Page</title>
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/jquery_mobile_1_2_0.css" />
+	<link rel="stylesheet" href="css/my_style.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="js/jquery_mobile_1_2_0.js"></script>
+
+
+
+	   <script type="text/javascript" src="./js/jquery.jcarousel.min.js"></script>
+		<script type="text/javascript" src="./js/jcarousel.init.js"></script>
+		<link rel="stylesheet" type="text/css" href="./jcarousel-skins/skin.css" />
+		 <style type="text/css" media="screen">@import "jqtouch/jqtouch.min.css";</style>
+        <style type="text/css" media="screen">@import "themes/theme.css";</style>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        <script src="jqtouch/jqtouch.min.js" type="application/x-javascript" charset="utf-8"></script>
+        <script type="text/javascript" charset="utf-8">
+            var jQT = new $.jQTouch({
+                icon		: 'codropsIcon.png',
+                cacheGetRequests: true,
+                addGlossToIcon	: false,
+                startupScreen	: 'codropsSplash.png',
+                statusBar	: 'black',
+                preloadImages: [
+                    'themes/img/back_button.png',
+                    'themes/img/back_button_clicked.png',
+                    'themes/img/button_clicked.png',
+                    'themes/img/grayButton.png',
+                    'themes/img/whiteButton.png',
+                    'themes/img/loading.gif'
+                ]
+            });
+        </script>
+		<link rel="apple-touch-icon-precomposed" href="codropsIcon.png"><link rel="apple-touch-startup-image" href="codropsSplash.png"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<script src="jquery.gallery.js" type="application/x-javascript" charset="utf-8"></script>
+</head>
+<body>
+<section id="page1" data-role="page" data-theme='a'>
+
+      <div data-role="header" class="align-left-right">
+	
+<!--		
+		<div data-role="controlgroup" data-type="horizontal">
+			<div data-role="controlgroup" data-type="horizontal">
+				<a href="#" data-role="button" data-inline="true" >
+					<img src="themes/img/logo.png" />
+				</a>
+			</div>
+			<div data-role="controlgroup" data-type="horizontal">
+				<a href="#" data-role="button" data-inline="true" ><h6>ABOUT</h6></a>
+				<a href="#" data-role="button" data-inline="true"><h6>SHOP</h6></a>
+				<a href="#" data-role="button" data-inline="true"><h6>MY ACCOUNT</h6></a>
+				<a href="#" data-role="button" data-inline="true"><h6>0 ITEMS</h6></a>
+			</div>
+		</div>
+-->
+
+<div class="ui-grid-a">
+	<div class="ui-block-a" style="width: 40%;"><img src="themes/img/logo.png" class="header-log" /></div>
+
+	<!--
+	<div class="ui-block-b">			
+			<div data-role="controlgroup" data-type="horizontal" style="float:right">
+				<a href="#" data-role="button" data-inline="true" ><h6>ABOUT</h6></a>
+				<a href="#" data-role="button" data-inline="true"><h6>SHOP</h6></a>
+				<a href="#" data-role="button" data-inline="true"><h6>MY ACCOUNT</h6></a>
+				<a href="#" data-role="button" data-inline="true"><h6>0 ITEMS</h6></a>
+			</div>
+	</div>
+	-->
+		<div class="ui-block-b" style="width: 60%;">			
+			<div id="toolbar" style="float:right">			
+				<div id="inspector-button" class="tb-button">
+					HOME
+				</div>
+				<div id="inspector-button" class="tb-button">
+					SHOP
+				</div>
+				<div id="myaccount-button" class="tb-button">
+					MY ACCOUNT
+				</div>
+				<div id="cat-button" class="tb-button">
+					0 ITEMS
+				</div>
+			</div>
+	</div>
+</div><!-- /grid-a -->
+
+
+	</div>
+		<!--content-->
+       <div data-role="content" style="text-align: center;">        
+			<img src="themes/img/header.jpg" class="resize-image" />
+	   </div><!-- /content -->
+
+       <ul data-role="listview" class="align-left-right" data-theme='c' >
+               <li><a href="#"><ul  style="color:#000000; text-shadow:none;">HOME</ul></a></li>
+               <li><a href="#"><ul style="color:#000000; text-shadow:none;">MEN'S</ul></a></li>
+               <li><a href="#"><ul style="color:#000000; text-shadow:none;">WOMEN'S</ul></a></li>
+               <li><a href="#"><ul style="color:#000000; text-shadow:none;">MUSIC</ul></a></li>
+               <li><a href="#"><ul style="color:#000000; text-shadow:none;">ACCESORIES</ul></a></li>
+               <li><a href="#"><ul style="color:#000000; text-shadow:none;">TICKETS</ul></a></li>
+               <li><a href="#"><ul style="color:#000000; text-shadow:none;">GIFT CARD</ul></a></li>
+               <li data-theme="a">
+					<p>
+					
+						 <div class="" id="thumbs_container">
+							   <ul id="thumbs" class="thumbView" style="display: none;">
+									<li style="margin-left: 6px;" class="pic">
+										<a class="" href="#photo_container">
+											<img style="width: 75px; height: 75px;" src="thumbs/album1/image1.jpg" alt="images/album1/image1.jpg" title="Inna 02 © studio.es by Vincent Boiteau">
+										</a>
+									</li>
+									<li style="margin-left: 0px;" class="pic">
+										<a href="#photo_container">
+											<img style="width: 75px; height: 75px;" src="thumbs/album1/image2.jpg" alt="images/album1/image2.jpg" title="Inna 01 © studio.es by Vincent Boiteau">
+										</a>
+									</li>
+									<li style="margin-left: 0px;" class="pic">
+										<a href="#photo_container">
+											<img style="width: 75px; height: 75px;" src="thumbs/album1/image3.jpg" alt="images/album1/image3.jpg" title="Patricia Fernandez 03 © studio.es by Vincent Boiteau">
+										</a>
+									</li>
+									<li style="margin-left: 0px;" class="pic">
+										<a href="#photo_container">
+											<img style="width: 75px; height: 75px;" src="thumbs/album1/image4.jpg" alt="images/album1/image4.jpg" title="Alba Brianso 02 © studio.es by Vincent Boiteau">
+										</a>
+									</li>
+									<li style="margin-left: 0px;" class="pic">
+										<a href="#photo_container">
+											<img style="width: 75px; height: 75px;" src="thumbs/album1/image5.jpg" alt="images/album1/image5.jpg" title="Laura Hayden 05 © studio.es by Vincent Boiteau">
+										</a>
+									</li>
+								</ul>
+							</div>
+							<!-- The single image container -->
+							<div class="current" id="photo_container">
+								<div class="loader" style="display: none;"></div>
+
+
+								<div class="descriptionWrapper">
+									<div id="prev" style=""></div>
+									<div id="next" style=""></div>
+								</div>
+
+								<div id="theimage" class="singleimage"><a><img style="width: 136px; height: 206px;" src="images/album1/image5.jpg"></a></div>
+
+							</div>
+							
+					</p>
+				</li>
+               <li><a href="#"><ul style="color:#000000; text-shadow:none;">CUSTOMER SERVICE</ul></a></li>
+               <li><a href="#"><ul style="color:#000000; text-shadow:none;">ORDER STATUS</ul></a></li>
+       </ul>
+
+       <div style="height:300px;" data-role="content">        </div><!-- /content -->
+
+</section>
+
+</body>
+</html>
